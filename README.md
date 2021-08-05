@@ -4,7 +4,7 @@ Source code of the proposed models and experiments in the paper "[OKGIT: Open Kn
 ![](https://github.com/chandrahasd/OKGIT/blob/main/arch_okgit_camera_ready.png)
 
 ## Description
-  The code is based on [CaRE](https://github.com/malllabiisc/CaRE) and [LAMA](https://github.com/facebookresearch/LAMA). The datasets used in this work can be found [here](https://github.com/malllabiisc/CaRE/tree/master/Data). The pre-trained language models (BERT-base, BERT-large, RoBERTa) used in the paper can be found [here](https://huggingface.co/models).
+  The code is based on [CaRE](https://github.com/malllabiisc/CaRE) and [LAMA](https://github.com/facebookresearch/LAMA). The datasets used in this work can be found [here](https://github.com/malllabiisc/CaRE/tree/master/Data). The pre-trained language models (BERT-base, BERT-large, and RoBERTa) used in the paper can be found [here](https://huggingface.co/models).
 
 
 
@@ -24,6 +24,8 @@ Source code of the proposed models and experiments in the paper "[OKGIT: Open Kn
 
 
 ## Running
+  Before running the code, please edit the paths for data, config, source code, and the results in [data.cfg](https://github.com/Chandrahasd/OKGIT/blob/main/config/data.cfg) file.
+  
   #### ReVerb20K
   
   ```python
